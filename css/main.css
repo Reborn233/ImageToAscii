@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+canvas {
+  display: none;
+  /* position: absolute; */
+}
+section {
+  padding-bottom: 30px;
+}
+
+#main {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  margin-bottom: 15px;
+}
+.flex {
+  display: flex;
+  display: -webkit-flex;
+}
+.flex-item {
+  flex: 1;
+  -webkit-flex: 1;
+}
+#ascii {
+  max-width: 1200px;
+}
+#loading {
+  display: none;
+}

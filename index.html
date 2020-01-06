@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#fff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="Description" content="imgToAscii" />
+    <link rel="icon" href="favicon.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" href="favicon.ico" />
+    <title>imgToAscii</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main id="main">
+      <nav>
+        <input type="file" id="file" accept="image/jpeg,image/png,image/jpg" />
+      </nav>
+      <section>
+        <div>
+          <h3>ascii图</h3>
+          <p id="loading">Loading...</p>
+          <canvas id="canvas"></canvas>
+          <img id="ascii" style="display: none;" src="" alt="image" />
+        </div>
+      </section>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
